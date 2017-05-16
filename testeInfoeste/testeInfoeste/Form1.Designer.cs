@@ -30,6 +30,8 @@
         {
             this.lbNome = new System.Windows.Forms.Label();
             this.tb_nome = new System.Windows.Forms.TextBox();
+            this.lbSobrenome = new System.Windows.Forms.Label();
+            this.tbSobrenome = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lbNome
@@ -48,11 +50,29 @@
             this.tb_nome.Size = new System.Drawing.Size(157, 20);
             this.tb_nome.TabIndex = 1;
             // 
+            // lbSobrenome
+            // 
+            this.lbSobrenome.AutoSize = true;
+            this.lbSobrenome.Location = new System.Drawing.Point(13, 52);
+            this.lbSobrenome.Name = "lbSobrenome";
+            this.lbSobrenome.Size = new System.Drawing.Size(64, 13);
+            this.lbSobrenome.TabIndex = 2;
+            this.lbSobrenome.Text = "Sobrenome:";
+            // 
+            // tbSobrenome
+            // 
+            this.tbSobrenome.Location = new System.Drawing.Point(16, 68);
+            this.tbSobrenome.Name = "tbSobrenome";
+            this.tbSobrenome.Size = new System.Drawing.Size(157, 20);
+            this.tbSobrenome.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.tbSobrenome);
+            this.Controls.Add(this.lbSobrenome);
             this.Controls.Add(this.tb_nome);
             this.Controls.Add(this.lbNome);
             this.Name = "Form1";
@@ -67,6 +87,8 @@
 
         private System.Windows.Forms.Label lbNome;
         private System.Windows.Forms.TextBox tb_nome;
+        private System.Windows.Forms.Label lbSobrenome;
+        private System.Windows.Forms.TextBox tbSobrenome;
     }
 }
 
